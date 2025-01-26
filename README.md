@@ -1,2 +1,19 @@
-[![Open in Visual Studio Code](https://classroom.github.com/assets/open-in-vscode-2e0aaae1b6195c2367325f4f02e2d04e9abb55f0b24a779b69b11b9e10269abc.svg)](https://classroom.github.com/online_ide?assignment_repo_id=17675988&assignment_repo_type=AssignmentRepo)
-# INF 6420 - Intro to Web Development
+# Brandon Dye Online Resume and Summary
+
+Online site showcasing my previous work experience.
+
+## Wireframes
+This will navigate to the homepage, the about page, and the resume page
+
+
+![Wireframe of Main Page](Wireframes/processed-7C9431CE-1A4B-4F9F-90B0-74ABDDDCA3DD.jpeg)
+
+Header - this will showcase what my name is, my email, and a contact form
+
+Navigation Menu - this will include a navigation menu
+
+Picture - this will include a general picture for the site
+
+Main Content - a summary including what the site is about and some of my general interests
+
+Footer - this will show how best to use the site
