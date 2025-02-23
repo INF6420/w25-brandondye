@@ -1,0 +1,12 @@
+header{padding: 1rem; background-color: black; color: white}
+body{font-family: Arial, 'Times New Roman', sans-serif; line-height: 1.5; text-align: left;}
+h1{font-weight: bold; font-size: 20px; border-bottom-color: black; border-bottom-style: solid; border-bottom-width: 1.5px; padding: 20px}
+h2{font-style: italic; font-size: 18px}
+h3{font-size: 16px; text-decoration: underline;}
+p{font-size: 14px}
+.Summary{border-color: black; border-style: solid; border-width: 2px; padding: 20px; margin-right: 300px; margin-left: 300px; margin-top: 30px; margin-bottom: 300px;}
+.Navigation{position: absolute; right: 21px; bottom: 300px; width: 200px; border-color: black; border-style: solid; border-width: 2px; padding: 20px}
+.Contact{position: absolute; left: 21px; bottom: 300px; width: 200px; border-color: black; border-style: solid; border-width: 2px; padding: 20px}
+img {max-width: 100%; max-height: 100%}
+.Footer{bottom: 0px; right: 0px; left: 0px; position: absolute;}
+footer{bottom: 0px; padding: 1rem; background-color: black; color: white}
