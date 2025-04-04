@@ -8,5 +8,29 @@ p{font-size: 14px}
 .Navigation{position: absolute; right: 21px; bottom: 300px; width: 200px; border-color: black; border-style: solid; border-width: 2px; padding: 20px}
 .Contact{position: absolute; left: 21px; bottom: 300px; width: 200px; border-color: black; border-style: solid; border-width: 2px; padding: 20px}
 img {max-width: 100%; max-height: 100%}
+
+
+
 .Footer{bottom: 0px; right: 0px; left: 0px; position: absolute;}
 footer{bottom: 0px; padding: 1rem; background-color: black; color: white}
+
+
+.form-input{padding: 1em; margin-bottom: 2.5em;}
+[type="submit"]{width: 100%; font-size: 1em; font-weight: 700}
+[type="submit"]:hover, [type="submit"]:focus{background: gray}
+
+
+
+
+
+
+
+
+textarea{resize: none;}
+.error{border-color: red;}
+
+
+
+
+
+.error-message {margin-top: -2em; margin-bottom: 1em; color: red}
