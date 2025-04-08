@@ -34,12 +34,23 @@
    </div>
    <div class="Contact">
     <h1>Contact Form</h1>
-    <p>Please leave your name, email, and type of inquiry in the spaces below and click send. I will be in contact as soon as possible. If you want to reach out to me directly, please use my email at the top of the page or click here
-        for more information.</p>
-    <p>Name</p>
-    <p>Email</p>
-    <p>Inquiry</p>
-    <!--I am putting this here as a placeholder for a form that will allow visitors to type in their contact information and hit a "send" button that will send the information to me.-->
+    <p>Please leave your name, email, and inquiry in the spaces below and click send. I will be in contact as soon as possible. If you want to reach out to me directly, please use my email at the top of the page.</p>
+        <form
+  action="https://formspree.io/f/xvgkwwko"
+  method="POST"
+class = "validate"><label>
+    <label for="name">Your Name</label>
+    <input name="name" id="name" type="text" class="form-input">
+    
+    <label for="email">Your Email</label>
+    <input name="email" id="email" type="email" class="form-input" required>
+    
+    <label for="message">Your Message</label>
+    <textarea name="message" class="form-input" required></textarea>
+  </label>
+  <button type="submit">Send</button>
+</form>
+
    </div>
    </main>
    <footer>
@@ -48,5 +59,6 @@
     <p>Please feel free to use the links provided on this website to explore my education, skills, and professional experience. Each page will provide summary information here at the footer of the page and will provide methods to reach out to me via email
         or otherwise. Thanks for visiting! </p>
    </footer>
+   <script src="script.js"></script>
 </body>
 </html>
