@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,34 +8,62 @@
 </head>
 
 <link rel="stylesheet" href="style.css">
-<body>
-   <header>
-    <h1>Brandon Dye Resume<br>hx8048@wayne.edu</h1>
-    </header>
-   <main>
-    <div class="Summary">
-        <img src="wireframes/processed-F74D9CCA-D375-48B3-BB66-B1142D75DC9B.jpeg" alt="Brandon Dye"><!--Have to include picture when I determine which one I want to use.-->
-        <h1>Education, Certifications, and Qualifications</h1>
-        <p></p><!--Have to include more information in this section when I think of it.-->
-        <h1>Skills and Expertise</h1>
-        <p></p><!--Have to include more information in this section when I think of it.-->
-    </div>
-    <div class="Navigation">
-        <h1>Navigation</h1>
-        <nav>
-            <ul>
-                <li><a href="index.html">Professional Summary</a></li>
-                <li><a href="resume.html">Professional Experience</a></li>
-            </ul>
-        </nav>
-   </div>
 
-   </main>
-   <footer>
-    <h2>Brandon Dye Resume</h2>
-    <h3>How to use this website</h3>
-    <p>Please feel free to use the links provided on this website to explore my education, skills, and professional experience. Each page will provide summary information here at the footer of the page and will provide methods to reach out to me via email
-        or otherwise. Thanks for visiting! </p>
-   </footer>
+<body>
+    <header>
+        <h1>Brandon Dye Resume<br>hx8048@wayne.edu</h1>
+    </header>
+    <main>
+        <div class="Summary">
+            <img src="IMG_0615.jpeg" alt="Brandon Dye">
+            <h1>Education, Certifications, and Qualifications</h1>
+            <ul>
+                <li>Master of Library and Information Science | Wayne State University</li>
+                <li>Master of Public Health | Hofstra University</li>
+            </ul>
+            <h1>Skills and Expertise</h1>
+            <ul>
+                <li>Library and Information Services: Records Management, Reference Interviewing, Search Filtering, Field Searching, Boolean Searching, Wildcard Searching, Citation Management</li>
+                    <li>Technical Expertise: HTML, CSS, GitHub, Microsoft Access,  Microsoft Outlook, Microsoft Excel, Microsoft PowerPoint, Microsoft Word, Microsoft Teams,  Zoom, Google Suite, SharePoint</li>
+                        <li>Project Management: Research Administration, Stakeholder Engagement, Budget Management, Data Entry, Survey Design, Institutional Review Board (IRB) Protocol, Copying, Printing, Faxing,
+                            Scanning, Filing, Transcription, Fact-Checking, Proofreading, Copyediting, Typesetting</li>
+</ul>
+            <p></p><!--Have to include more information in this section when I think of it.-->
+        </div>
+        <div class="Navigation">
+            <h1>Navigation</h1>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Professional Summary</a></li>
+                    <li><a href="resume.html">Professional Experience</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div class="Contact">
+            <h1>Contact Form</h1>
+            <p>Please leave your name, email, and inquiry in the spaces below and click send. I will be in contact as
+                soon as possible. If you want to reach out to me directly, please use my email at the top of the page.
+            </p>
+            <form action="https://formspree.io/f/xvgkwwko" method="POST" class="validate"><label>
+                    <label for="name">Your Name</label>
+                    <input name="name" id="name" type="text" class="form-input">
+
+                    <label for="email">Your Email</label>
+                    <input name="email" id="email" type="email" class="form-input" required>
+
+                    <label for="message">Your Message</label>
+                    <textarea name="message" class="form-input" required></textarea>
+                </label>
+                <button type="submit">Send</button>
+            </form>
+        </div>
+    </main>
+    <footer>
+        <h2>Brandon Dye Resume</h2>
+        <h3>How to use this website</h3>
+        <p>Please feel free to use the links provided on this website to explore my education, skills, and professional
+            experience. Thanks for visiting! </p>
+    </footer>
 </body>
+
 </html>
